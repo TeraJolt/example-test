@@ -1,18 +1,21 @@
 {
   "name": "example-test",
-  "displayName": "Example test",
+  "displayName": "ViaCep Extension",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
-  "author": "Plasmo Corp. <foss@plasmo.com>",
+  "description": "Uma extensão básica que retorna o endereço com base no CEP",
+  "author": "João Santos <github.com/TeraJolt>",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
     "package": "plasmo package"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "axios": "^1.7.9",
     "plasmo": "0.89.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
@@ -21,7 +24,8 @@
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "prettier": "3.2.4",
-    "typescript": "5.3.3"
+    "typescript": "5.7.2",
+    "vite": "^6.0.3"
   },
   "manifest": {
     "host_permissions": [
